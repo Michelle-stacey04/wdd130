@@ -1,0 +1,15 @@
+body{
+    background-color:#FCA6C9 ;
+}
+h1{
+    color: white;
+}
+h1 :hover{
+color: black;
+}
+header{
+   border: 1px solid black;
+   /* margin: 0 auto;
+    text-align: center
+    width:400px;
+}
