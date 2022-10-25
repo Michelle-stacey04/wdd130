@@ -166,13 +166,13 @@
   .content6 {
     /* This is the parent of the activity 6 boxes. */
     display: grid;
-    grid-template-columns: 100px 50px 50px 50px 50px 50px;
+    grid-template-columns: 1rf 1rf 1rf 1rf 1rf 1rf ;
   }
   .red6 {
-    width:100%; 
+    width:70%; 
     height: 100px; 
     background-color: red; 
-    grid-column: 1/5;
+    
     
   } 
   .blue6 {
@@ -180,6 +180,7 @@
     height: 100px; 
     background-color: blue; 
     align-self: center;
+    grid-row: 2/4;
   } 
 
   .green6 {
