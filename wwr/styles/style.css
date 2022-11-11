@@ -269,3 +269,23 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+.main-rivers{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 90px;
+    padding: 90px;
+}
+.main-rivers section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+.main-rivers img{
+    width: 100%;
+}
+
+.main-rivers p{
+    font-size: 18px;
+}
