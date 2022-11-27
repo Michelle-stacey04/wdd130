@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bubblegum+Sans&family=Rock+Salt&family=Rubik+Bubbles&display=swap');
+body{
+    background-color:#ffffeb ;
+    font-family:'rock salt', Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #ff8595;
+}
+
+footer a{
+    color: #3b3329;
+    text-decoration: none;
+}
+
+footer a:hover{
+   background-color: #e8615e;
+    color: tan;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+header{
+    background-color:#ff8595;
+}
+
+main section{
+    text-align: center;
+}
+
+nav a{
+    text-align: center;
+    color:#fff9dc;
+    text-decoration: none;
+    font-family: 'abril fatface';
+}
+
+nav a:hover{
+    background-color:#e8615e ;
+    color:tan;
+    text-decoration: underline;
+}
+
+.announcment-msg{
+    background-color:#f0c771 ;
+    line-height: 1.5em;
+}
+
+.announcment-msg h2{
+    color: #5a4d3c ;
+    font-family: 'abril fatface',Arial, Helvetica, sans-serif;
+}
+
+.announcment-msg p{
+    color:#fff9dc ;
+    font-size: .8em;
+}
+
+.home-title{
+    color:#ff9d5c ;
+    font-family:'Rubik Bubbles', serif, sans-serif ;
+    font-size: 4em;
+    
+}
+.logo{
+    width: 80px;
+}
+
+#content{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+#hero-img{
+    width: 100%;
+}
+#hero-msg h1{
+    text-align: center;
+}
