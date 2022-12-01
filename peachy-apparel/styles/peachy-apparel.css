@@ -70,6 +70,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: #3b3329;
+    font-size: .8em;
 }
 
 .acessories-grid section img{
@@ -103,6 +104,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     color: #3b3329;
+    font-size: .8em;
 }
 
 .crew-grid section img{
@@ -139,6 +141,7 @@ nav a:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   color: #3b3329;
+  font-size: .8em;
 }
 
 .peach-pants-card,
