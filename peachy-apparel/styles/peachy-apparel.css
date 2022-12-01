@@ -1,139 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bubblegum+Sans&family=Rock+Salt&family=Rubik+Bubbles&display=swap');
-body{
-    background-color:#ffffeb ;
-    font-family:'rock salt', Arial, Helvetica, sans-serif ;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bubblegum+Sans&family=Rock+Salt&family=Rubik+Bubbles&display=swap");
+body {
+  background-color: #ffffeb;
+  font-family: "rock salt", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
-    background-color: #ff8595;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: ;
+  background-color: #ff8595;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
 }
 
-footer a{
-    color: #3b3329;
-    text-decoration: none;
+footer a {
+  color: #3b3329;
+  text-decoration: none;
 }
 
-footer a:hover{
-   background-color: #e8615e;
-    color: tan;
+footer a:hover {
+  background-color: #e8615e;
+  color: tan;
 }
 
-footer p{
-    font-size: 1em;
+footer p {
+  font-size: 1em;
 }
 
 footer p a:hover {
-    text-decoration: underline;
-} 
+  text-decoration: underline;
+}
 
-footer .social img{
-    padding-top: 15px;
-}   
+footer .social img {
+  padding-top: 15px;
+}
 
-header{
-    background-color:#ff8595;
+header {
+  background-color: #ff8595;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+main section {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  color: #fff9dc;
+  text-decoration: none;
+  font-family: "abril fatface";
+  padding: 35px;
+  font-size: 2em;
+}
+
+nav a:hover {
+  background-color: #e8615e;
+  color: tan;
+}
+
+.acessories-grid{
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #3b3329;
 }
 
-main section{
-    text-align: center;
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-}
-nav a{
-    text-align: center;
-    color:#fff9dc;
-    text-decoration: none;
-    font-family: 'abril fatface';
-    padding: 35px;
-    font-size: 2em;
+.acessories-grid section img{
+    height: 320px;
+    object-fit: cover;
 }
 
-nav a:hover{
-    background-color:#e8615e ;
-    color:tan;
+.announcment-msg {
+  background-color: #f0c771;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
-.announcment-msg{
-    background-color:#f0c771 ;
-    line-height: 1.5em;
-    padding: 35px;
+.announcment-msg h2 {
+  color: #5a4d3c;
+  font-family: "abril fatface", Arial, Helvetica, sans-serif;
 }
 
-.announcment-msg h2{
-    color: #5a4d3c ;
-    font-family: 'abril fatface',Arial, Helvetica, sans-serif;
+.announcment-msg p {
+  color: #fff9dc;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
-.announcment-msg p{
-    color:#fff9dc ;
-    font-size: .8em;
-    padding-bottom: 15px;
+.card-img {
+  border: 10px solid #f5b400;
 }
 
-.card-img{
-    border:10px solid #f5b400;
-}
-
-.home-title{
-    color:#ff9d5c;
-    font-family:'Rubik Bubbles', serif, sans-serif ;
-    font-size: 4em;
-    margin-top: 10px;
-    
-}
-.logo{
-    width: 80px;
-}
-
-.peach-pants-card, .butterfly-sweatshirt-card, .good-day-card{
-    margin: 200px 0;
-}
-
-#content{
-    margin: 0 auto;
-    max-width: 1600px;
-}
-
-#hero{
+.crew-grid {
     display: grid;
-    grid-template-columns:1fr 3fr 1fr ;
-    margin-top: -100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: #3b3329;
 }
 
-#hero-box{
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
+.crew-grid section img{
+    height: 300px;
+    object-fit: cover;
 }
 
-#hero-img{
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.home-title {
+  color: #ff9d5c;
+  font-family: "Rubik Bubbles", serif, sans-serif;
+  font-size: 4em;
+  margin-top: 10px;
+}
+.logo {
+  width: 80px;
+}
+
+.main-shop{
+    color: #ff9d5c;
+}
+
+.main-shop section img {
     width: 100%;
 }
 
-#hero-msg{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
+.pants-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: #3b3329;
 }
 
-#hero-msg h1{
-    text-align: center;
+.peach-pants-card,
+.butterfly-sweatshirt-card,
+.good-day-card {
+  margin: 200px 0;
 }
-#logo_link{
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+
+#content {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+}
+
+#hero-msg h1 {
+  text-align: center;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
 }
